@@ -20,8 +20,7 @@ const app = express();
 
 // db connection
 const connectDB = async () => {
-  console.log('connecting to db')
-  console.log(process.env.MONGODB_URI)
+  
   try {
     await mongoose.connect(
       
