@@ -7,7 +7,7 @@ const cors = require("cors");
 const path = require("path");
 const expressValidator = require("express-validator");
 require("dotenv").config();
-// import routes
+// routes
 const authRoutes = require("./routes/auth");
 const userRoutes = require("./routes/user");
 const categoryRoutes = require("./routes/category");
